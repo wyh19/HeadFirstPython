@@ -5,3 +5,7 @@ movies = [
 ]
 
 print(movies)
+
+
+movies.insert(1, 1975)
+print(movies)
