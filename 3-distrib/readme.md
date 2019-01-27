@@ -11,3 +11,8 @@ python3 setup.py sdist
 cd nester
 python3 setup.py install
 ```
+5. 更新
+```
+cd nester
+python3 setup.py sdist upload
+```
