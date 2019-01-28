@@ -8,3 +8,5 @@ for line in data:
         print(spoken, end='')
 
 data.close()
+
+# if line.find(':') > -1:  可以写成  if not line.find(':') == -1
