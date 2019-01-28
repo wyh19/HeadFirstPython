@@ -4,7 +4,7 @@ man = []
 other = []
 
 try:
-    data = open('./sketch.txt')
+    data = open('./file/sketch.txt')
     for line in data:
         try:
             (role, spoken) = line.split(':', 1)
@@ -23,7 +23,7 @@ print(man)
 print(other)
 
 #开始写入文件
-out  = open('./data.out','w')
+out  = open('./file/data.out','w')
 print(man,file = out)
 print(other,file = out)
 out.close()

@@ -1,6 +1,6 @@
 from os.path import exists
 
-file_path = './sketch.txt'
+file_path = './file/sketch.txt'
 
 if exists(file_path):
     data = open(file_path)

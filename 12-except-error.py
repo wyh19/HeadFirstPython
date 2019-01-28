@@ -1,7 +1,7 @@
 """指定特定的异常类型"""
 
 try:
-    data = open('./sketch.txt')
+    data = open('./file/sketch.txt')
     for line in data:
         try:
             (role, spoken) = line.split(':', 1)

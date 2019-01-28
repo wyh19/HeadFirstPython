@@ -1,5 +1,5 @@
 
-data = open('./sketch.txt')
+data = open('./file/sketch.txt')
 
 for line in data:
     try:

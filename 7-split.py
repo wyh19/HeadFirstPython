@@ -1,6 +1,6 @@
 """在6中，所有对话都是 xxx: xx的形式"""
 
-data = open('./sketch.txt')
+data = open('./file/sketch.txt')
 
 for line in data:
     (role, spoken) = line.split(':')
