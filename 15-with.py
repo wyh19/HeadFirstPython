@@ -2,6 +2,6 @@
 
 try:
     with open('missing.txt') as data:
-        print(data.readline)
+        print(data.readline())
 except IOError as err:
     print('File Error:'+str(err))
