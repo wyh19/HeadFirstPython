@@ -9,7 +9,7 @@ def print_lol(the_list, indent=False, level=0, fh=sys.stdout):
             if indent:
                 for sta_stop in range(level):
                     print('\t', end='', file=fh)
-            print(line, fh)
+            print(line, file=fh)
 
 
 movies = [
