@@ -23,4 +23,6 @@ with open('./file/dump.pickle', 'rb') as myRestoredData:
     movies2 = pickle.load(myRestoredData)
 
 print(movies2)
+print(movies2 == movies)
+print(movies2 is movies)
 
