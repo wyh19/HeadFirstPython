@@ -19,9 +19,21 @@ class AthleteList(list):
     def top3(self):
         return sorted(set([sanitize(t) for t in self]))[0:3]
 
-
+#一些测试
 vera = AthleteList('vera vi')
 vera.append('1.31')
 print(vera.top3())
 vera.extend(['2.22','1-21','2:22'])
 print(vera.top3())
+
+def get_coach_data(fileName):
+    try:
+        with open(fileName) as f:
+            data = f.readline().strip().split(',')
+        return AthleteList(data.pop(0), data.pop(0), data)
+    except IOError as err:
+        print('Error'+str(err))
+        return None
+james = get_coach_data('./book-source/hfpy_ch6_data/james2.txt')
+result = james.top3()
+print(result)
