@@ -14,9 +14,6 @@ movies.pop()
 # 删除指定索引
 movies.pop(1)
 
-# 元祖 tuple,即不可变的list
-t = ("A","b")
-
 
 # 迭代
 for movie in movies:
@@ -32,10 +29,9 @@ movies = [
     ]
 ]
 for movie in movies:
-    #类型判断
-    if isinstance(movie,list):
+    # 类型判断
+    if isinstance(movie, list):
         for m in movie:
             print(m)
     else:
         print(movie)
-
