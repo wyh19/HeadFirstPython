@@ -1,6 +1,6 @@
 """练习文件的处理"""
 
-the_file = open('./file/sketch.txt')
+the_file = open('data-file/sketch.txt')
 
 print(the_file.readline(),end='')
 print(the_file.readline(),end='')

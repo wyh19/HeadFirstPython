@@ -32,6 +32,7 @@ def print_lol(the_list, level=0):
         else:
             # 打印level个数目的tab字符，形成缩进
             for tab_stop in range(level):
+                # 注意：print默认行为是打印完换行，现在指定其end参数为空字符串，即打印完不换行
                 print("\t", end="")
             # 打印文字本身
             print(item)
