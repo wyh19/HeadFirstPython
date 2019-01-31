@@ -13,3 +13,7 @@ python3 setup.py install
 ```bash
 python3 setup.py sdist upload
 ```
+
+## 说明
+nester文件夹里除了nester.py和setup.py两个文件是自己写的，其他都是自动生成的，不用关心。
+安装完，请打开 【4-使用模块.py】 进行使用
