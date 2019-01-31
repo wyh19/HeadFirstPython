@@ -1,6 +1,6 @@
 """
-    1、这一节扩展print_lol函数，给其增加一个参数fh
-    2、print函数有一个参数为file，设置该参数用于指示print输出到屏幕还是到文件，默认值为sys.stdout
+    1、这一节扩展print_lol函数，给其增加一个参数fh，在执行print函数时，将该参数传递给print的file参数
+    2、print的file参数用于指示print输出到屏幕还是到文件，默认值为sys.stdout,即输出到屏幕
 """
 import sys
 
