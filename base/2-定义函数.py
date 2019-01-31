@@ -27,3 +27,5 @@ def print_lol(the_list):
 
 # 使用自定义的print_lol函数
 print_lol(movies)
+
+## !注意:第3节介绍模块的发布与安装，需要一个文件夹，因此请移步  3-模块发布于安装
