@@ -1,4 +1,6 @@
-"""这一节将改造print_lol，使其更强大"""
+"""
+    
+"""
 
 # 练习range使用
 for num in range(4):
