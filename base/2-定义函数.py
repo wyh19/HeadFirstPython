@@ -20,6 +20,7 @@ movies = [
 def print_lol(the_list):
     for item in the_list:
         if isinstance(item, list):
+            #函数内调用自己，形成递归调用，由于有if判断的存在，不用担心导致死循环
             print_lol(item)
         else:
             print(item)
