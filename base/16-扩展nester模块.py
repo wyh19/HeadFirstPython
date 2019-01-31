@@ -22,5 +22,5 @@ movies = [
     ]
 ]
 
-with open('./file/nester_out.txt', 'w') as nester_out:
+with open('./base/output/nester_out.txt', 'w') as nester_out:
     print_lol(movies, fh=nester_out)
