@@ -9,7 +9,7 @@ python3 setup.py sdist
 ```bash
 python3 setup.py install
 ```
-5. 更新
+5. 如果安装后，nester.py代码有更新，则执行下面的命令
 ```bash
 python3 setup.py sdist upload
 ```
