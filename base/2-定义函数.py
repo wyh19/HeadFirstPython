@@ -3,7 +3,7 @@
     2、函数一般由函数名、参数、函数体、返回值（可省略，则返回None,即无返回值）组成，python定义函数的关键字是 def，因此形式是 
         def func_name(param,xxx):
             代码语句1
-            代码语句2...
+            代码语句2
             return ...
 """
 movies = [
