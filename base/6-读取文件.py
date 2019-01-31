@@ -1,7 +1,7 @@
 """
     1、使用open打开文件
-    2、readline()读取行
-    3、seek(index)将光标移到某个索引位置
+    2、xxfile.readline()读取行
+    3、xxfile.seek(index)将光标移到某个索引位置
     4、close()关闭文件
 """
 
