@@ -3,7 +3,7 @@
 """
 
 try:
-    data = open('./file/sketch.txt')
+    data = open('./base/data-file/sketch.txt')
     for line in data:
         try:
             (role, spoken) = line.split(':', 1)
