@@ -20,5 +20,7 @@ nester.print_lol(movies)
 
 
 """
-    4、也可以使用【 from 模块  import 名称 】
+    4、也可以使用【 from 模块  import 函数名称 】,直接使用模块里的函数，样例为下面注释掉的代码
 """
+# from  nester import print_lol
+# print_lol(movies)
