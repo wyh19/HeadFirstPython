@@ -13,4 +13,5 @@ for line in data:
 
 data.close()
 
+# 错误信息：too many values to unpack，值太多了
 # 报错原因：有些语句包含2个:  ，当对其执行split时，将得到3段字符串，但是前面的接受器只有2个变量，导致超出
