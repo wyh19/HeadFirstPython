@@ -10,7 +10,7 @@ print(set([1, 3, 2, 1, 3, 4, 6, 5]))
 print(sorted(set([1, 3, 2, 1, 3, 4, 6, 5])))
 print(sorted(set([1, 3, 2, 1, 3, 4, 6, 5]))[1:4])
 
-with open('./book-source/hfpy_ch5_data/james.txt') as jaf:
+with open('./base/data-file/data1/james.txt') as jaf:
     jm_data = jaf.readline().strip().split(',')
 
 
