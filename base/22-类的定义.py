@@ -20,13 +20,13 @@
 
 
 class Animal:
-    def __init__(self, name, type):
+    def __init__(self, name, a_type):
         self.name = name
-        self.type = type
+        self.type = a_type
 
     def hello(self):
         print('我是一只'+self.type+'，我的名字叫'+self.name)
 
 
-d = Animal(name='旺财', type='小狗')
+d = Animal(name='旺财', a_type='小狗')
 d.hello()
