@@ -5,7 +5,7 @@
     也可以写成 if not line.find(':') == -1:
 """
 
-data = open('./base/data-file/sketch.txt')
+data = open('./data-file/sketch.txt')
 
 for line in data:
     if line.find(':') > -1:

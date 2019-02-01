@@ -1,4 +1,4 @@
 *.pyc
 output
-.vscode
+# .vscode
 .idea

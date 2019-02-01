@@ -6,7 +6,7 @@
 
 from os.path import exists, abspath
 
-file_path = './base/data-file/sketch.txt'
+file_path = './data-file/sketch.txt'
 # 打印文件的绝对路径
 print(abspath(file_path))
 print('----分隔线----')

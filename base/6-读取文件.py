@@ -5,13 +5,8 @@
     4、close()关闭文件
 """
 
+the_file = open('./data-file/sketch.txt')
 
-the_file = open('./base/data-file/sketch.txt')
-"""
-上面的文件路径是相对路径，但是根据我的编程经验，应该是 ./data-file/sketch.txt，但是不对
-猜测py文件被执行时，提升到根目录了，所以其同级目录是base
-只是猜测，不要纠结这个问题
-"""
 
 # 打印第一行，光标移到第一行结束
 print(the_file.readline(), end='')

@@ -4,7 +4,7 @@
     3、pass 为占位符，表示什么也不执行
 """
 
-data = open('./base/data-file/sketch.txt')
+data = open('./data-file/sketch.txt')
 
 for line in data:
     try:

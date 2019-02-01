@@ -23,4 +23,4 @@ def get_coach_data(fileName):
         print('Error')
         return None
 
-print(get_coach_data('./base/data-file/data1/james.txt'))
+print(get_coach_data('./data-file/data1/james.txt'))

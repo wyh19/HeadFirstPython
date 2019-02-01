@@ -5,7 +5,7 @@
     4、两个方法都支持参数 reverse，默认为False,即从小到大排序；当设置为True时，则从大到小排序
 """
 
-with open('./base/data-file/data1/james.txt') as jaf:
+with open('./data-file/data1/james.txt') as jaf:
     jm_data = jaf.readline().strip().split(',')
 
 

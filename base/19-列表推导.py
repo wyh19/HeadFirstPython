@@ -9,7 +9,7 @@ for d in jm_data:
 """
 
 
-with open('./base/data-file/data1/james.txt') as jaf:
+with open('./data-file/data1/james.txt') as jaf:
     jm_data = jaf.readline().strip().split(',')
 
 

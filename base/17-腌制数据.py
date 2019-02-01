@@ -19,11 +19,11 @@ movies = [
 ]
 
 # dump数据，使用wb模式，即二进制写入文件
-with open('./base/output/dump.pickle', 'wb') as mySavedData:
+with open('./output/dump.pickle', 'wb') as mySavedData:
     pickle.dump(movies, mySavedData)
 
 # load数据，数据原样读出
-with open('./base/output/dump.pickle', 'rb') as myRestoredData:
+with open('./output/dump.pickle', 'rb') as myRestoredData:
     movies2 = pickle.load(myRestoredData)
 
 # 打印读取的数据

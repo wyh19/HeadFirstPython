@@ -37,6 +37,6 @@ def get_coach_data(fileName):
 
 
 # 如果get_coach_data函数执行顺利的话，james变量将指向Athlete的一个实例，该实例有一个top3方法
-james = get_coach_data('./base/data-file/data2/james.txt')
+james = get_coach_data('./data-file/data2/james.txt')
 result = james.top3()
 print(result)

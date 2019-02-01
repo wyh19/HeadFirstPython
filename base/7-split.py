@@ -4,7 +4,7 @@
     3、这个代码执行会报错，仔细阅读错误信息，下一节继续优化
 """
 
-data = open('./base/data-file/sketch.txt')
+data = open('./data-file/sketch.txt')
 
 for line in data:
     (role, spoken) = line.split(':')

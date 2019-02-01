@@ -63,6 +63,6 @@ def get_coach_data(fileName):
         return None
 
 
-james = get_coach_data('./base/data-file/data2/james.txt')
+james = get_coach_data('./data-file/data2/james.txt')
 result = james.top3()
 print(result)

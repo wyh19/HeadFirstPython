@@ -6,7 +6,7 @@ man = []
 other = []
 
 try:
-    data = open('./base/data-file/sketch.txt')
+    data = open('./data-file/sketch.txt')
     for line in data:
         try:
             (role, spoken) = line.split(':', 1)
@@ -34,7 +34,7 @@ print(other)
 """
 # 使用 print形式写入文件
 try:
-    out = open('./base/output/data.out', 'w')
+    out = open('./output/data.out', 'w')
     print(man, file=out)
     print(other, file=out)
     out.close()
@@ -44,7 +44,7 @@ except IOError:
 # 使用write形式写入文件,注意:write参数需要是字符串形式，所以使用str强制转换
 # 末尾加上 \n 的目的是为了让data2.out里的数据和data.out保持一致，因为print默认会给末尾增加\n
 try:
-    out = open('./base/output/data2.out', 'w')
+    out = open('./output/data2.out', 'w')
     out.write(str(man)+'\n')
     out.write(str(other)+'\n')
     out.close()
@@ -56,7 +56,7 @@ except IOError:
 # 解决办法：使用finally确保必须执行的代码得到执行，代码如下，下一节具体演示
 
 # try:
-#     out  = open('./base/output/data.out','w')
+#     out  = open('./output/data.out','w')
 #     print(man,file = out)
 #     print(other,file = out)
 #     # 注意，下面一行代码挪到了finally中执行
