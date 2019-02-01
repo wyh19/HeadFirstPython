@@ -29,6 +29,6 @@
 }
 ```
 
-[问题详情](https://stackoverflow.com/questions/54471395/why-is-python-assuming-my-path-is-the-project-root-which-is-two-directory-level) 
- 
-[cwd配置项](https://code.visualstudio.com/docs/python/debugging#_cwd)
+[问题详情](https://stackoverflow.com/questions/54471395/why-is-python-assuming-my-path-is-the-project-root-which-is-two-directory-level?_blank) 
+
+[cwd配置项](https://code.visualstudio.com/docs/python/debugging#_cwd?_blank)
