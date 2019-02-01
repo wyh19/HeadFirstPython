@@ -2,7 +2,7 @@
     1、本节的任务是定义一个运动员类Athlete,其有3个属性(表示运动员的姓名、成绩日期、成绩单)和1个方法（获取最好的3个成绩）
 """
 
-
+# 这个代码之前看过多次，这里可以忽略
 def sanitize(time_str):
     if '-' in time_str:
         spliter = '-'
@@ -13,7 +13,7 @@ def sanitize(time_str):
     (mins, sec) = time_str.split(spliter, 1)
     return mins + '.' + sec
 
-
+# 定义运动员类，3个属性和一个方法
 class Athlete:
     def __init__(self, a_name, a_dob=None, a_times=[]):
         self.name = a_name
@@ -36,6 +36,7 @@ def get_coach_data(fileName):
         return None
 
 
+# 如果get_coach_data函数执行顺利的话，james变量将指向Athlete的一个实例，该实例有一个top3方法
 james = get_coach_data('./base/data-file/data2/james.txt')
 result = james.top3()
 print(result)
