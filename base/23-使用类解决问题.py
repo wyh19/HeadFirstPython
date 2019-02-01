@@ -1,3 +1,8 @@
+"""
+    1、本节的任务是定义一个运动员类Athlete,其有3个属性和1个方法
+"""
+
+
 def sanitize(time_str):
     if '-' in time_str:
         spliter = '-'
@@ -29,6 +34,6 @@ def get_coach_data(fileName):
         return None
 
 
-james = get_coach_data('./book-source/hfpy_ch6_data/james2.txt')
+james = get_coach_data('./base/data-file/data2/james.txt')
 result = james.top3()
 print(result)
