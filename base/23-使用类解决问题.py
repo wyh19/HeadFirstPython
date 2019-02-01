@@ -1,5 +1,5 @@
 """
-    1、本节的任务是定义一个运动员类Athlete,其有3个属性和1个方法
+    1、本节的任务是定义一个运动员类Athlete,其有3个属性(表示运动员的姓名、成绩日期、成绩单)和1个方法（获取最好的3个成绩）
 """
 
 
@@ -28,6 +28,8 @@ def get_coach_data(fileName):
     try:
         with open(fileName) as f:
             data = f.readline().strip().split(',')
+        # list的pop方法为从list中按索引取出一个值，下面的代码表示用list中第一项（姓名）作为参数传递给Athlete类的第一个参数
+        # 此时，list第一项变为之前的第二项，即日期；最后list剩余项为成绩列表
         return Athlete(data.pop(0), data.pop(0), data)
     except IOError as err:
         print('Error'+str(err))
