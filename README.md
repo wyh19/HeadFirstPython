@@ -12,3 +12,22 @@
 ## 避开一些误区
 * 这本书更像是python的观光书，没有详细介绍python的语法，而是带着读者快速了解python的最常规的用法。因此，学习完这里的代码，你并不能成为一个python高手，甚至都不算一个合格的入门者，但是也不用担心你在浪费时间，这是最快让你用上python的学习途径。
 * 学完这里，依然要好好学习python的语法，而不是直接上手一些复杂项目，有时候过于贪快，容易导致知识体系打不开。
+
+# 使用VS Code一定要看
+如果你使用pycharm,无需往下看。
+使用VS Code,由于本项目的py文件写在base目录下，按F5执行调试时，会找不到相对路径的文件，需要在launch.json里添加 "cwd":""
+由于我把launch.json一并上传到github上了，所以直接clone下代码的项目是不会遇到这个问题的，但是知道这里有个坑更好。
+
+```json
+{
+    "name": "Python: Current File (Integrated Terminal)",
+    "type": "python",
+    "request": "launch",
+    "program": "${file}",
+    "console": "integratedTerminal",
+    "cwd":""
+}
+```
+
+[问题详情](https://stackoverflow.com/questions/54471395/why-is-python-assuming-my-path-is-the-project-root-which-is-two-directory-level)
+[cwd配置项](https://code.visualstudio.com/docs/python/debugging#_cwd)
